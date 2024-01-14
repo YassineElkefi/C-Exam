@@ -16,3 +16,14 @@ C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\bin\Debug\net8.0-windows\ExamenC#.
 C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\bin\Debug\net8.0-windows\ExamenC#.pdb
 C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\obj\Debug\net8.0-windows\ExamenC#.genruntimeconfig.cache
 C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\obj\Debug\net8.0-windows\ref\ExamenC#.dll
+C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\bin\Debug\net8.0-windows\System.Data.SQLite.dll
+C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\bin\Debug\net8.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\bin\Debug\net8.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\bin\Debug\net8.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\obj\Debug\net8.0-windows\ExamenC#.csproj.AssemblyReference.cache
+C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\obj\Debug\net8.0-windows\ExamenC#.sourcelink.json
+C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\obj\Debug\net8.0-windows\ExamenC#.csproj.CopyComplete
+C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\obj\Debug\net8.0-windows\ExamenC_.FieldAddForm.resources
+C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\obj\Debug\net8.0-windows\ExamenC_.FieldUpdateForm.resources
+C:\Users\GAMER\source\repos\ExamenC#\ExamenC#\obj\Debug\net8.0-windows\ExamenC_.DetailsFieldForm.resources
