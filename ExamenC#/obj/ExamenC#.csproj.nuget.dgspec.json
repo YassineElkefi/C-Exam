@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GAMER\\source\\repos\\ExamenC#\\ExamenC#\\ExamenC#.csproj": {}
+    "C:\\Users\\cocorisin\\Desktop\\C#\\ExamenC#\\ExamenC#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GAMER\\source\\repos\\ExamenC#\\ExamenC#\\ExamenC#.csproj": {
+    "C:\\Users\\cocorisin\\Desktop\\C#\\ExamenC#\\ExamenC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GAMER\\source\\repos\\ExamenC#\\ExamenC#\\ExamenC#.csproj",
+        "projectUniqueName": "C:\\Users\\cocorisin\\Desktop\\C#\\ExamenC#\\ExamenC#.csproj",
         "projectName": "ExamenC#",
-        "projectPath": "C:\\Users\\GAMER\\source\\repos\\ExamenC#\\ExamenC#\\ExamenC#.csproj",
-        "packagesPath": "C:\\Users\\GAMER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GAMER\\source\\repos\\ExamenC#\\ExamenC#\\obj\\",
+        "projectPath": "C:\\Users\\cocorisin\\Desktop\\C#\\ExamenC#\\ExamenC#.csproj",
+        "packagesPath": "C:\\Users\\cocorisin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cocorisin\\Desktop\\C#\\ExamenC#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cocorisin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,20 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

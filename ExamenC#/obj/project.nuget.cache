@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Sn/h0484eEy0dDvBNoKQfGpSwd+K1f3Dr3BT2wLJYkQOQiHyBGki9U3zno0ThPw0xKzrCwsemr7FksnHvX0l2Q==",
+  "dgSpecHash": "LzLyd3GxJV+xU81Hm/kzUJ5eu3Cy+ivk3bAy666NJJ7/j3ElCaPfkbNiv4fpmg4JrmpPSodw1nOqiBE+FTEi2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GAMER\\source\\repos\\ExamenC#\\ExamenC#\\ExamenC#.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\cocorisin\\Desktop\\C#\\ExamenC#\\ExamenC#.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cocorisin\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.1\\microsoft.data.sqlite.core.8.0.1.nupkg.sha512",
+    "C:\\Users\\cocorisin\\.nuget\\packages\\sqlitepclraw.core\\2.1.7\\sqlitepclraw.core.2.1.7.nupkg.sha512",
+    "C:\\Users\\cocorisin\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.118\\stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
+    "C:\\Users\\cocorisin\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512",
+    "C:\\Users\\cocorisin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }

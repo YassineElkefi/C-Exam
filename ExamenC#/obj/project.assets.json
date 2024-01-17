@@ -1,26 +1,189 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "Microsoft.Data.Sqlite.Core/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.6"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Data.Sqlite.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Data.Sqlite.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/2.1.7": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "Stub.System.Data.SQLite.Core.NetStandard/1.0.118": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {
+            "related": ".dll.altconfig;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {
+            "related": ".dll.altconfig;.xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.Data.SQLite.Core/1.0.118": {
+        "type": "package",
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetStandard": "[1.0.118]"
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.Data.Sqlite.Core/8.0.1": {
+      "sha512": "s8C8xbwMb79EqzTaIhwiBrYtbv6ATnUW19pJed4fKVgN5K4VPQ7JUGqBLztknvD6EJIMKrfRnINGTjnZghrDGw==",
+      "type": "package",
+      "path": "microsoft.data.sqlite.core/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.Data.Sqlite.dll",
+        "lib/net6.0/Microsoft.Data.Sqlite.xml",
+        "lib/net8.0/Microsoft.Data.Sqlite.dll",
+        "lib/net8.0/Microsoft.Data.Sqlite.xml",
+        "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
+        "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
+        "microsoft.data.sqlite.core.8.0.1.nupkg.sha512",
+        "microsoft.data.sqlite.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/2.1.7": {
+      "sha512": "C1j0zRA2bCueUrGG2TbqDVm0Bdeq/gPf+qs6SweTpoTIOqH1me0/1rhfCHBJkMSQwI9OC1XW6t4Ml8Iux76YSA==",
+      "type": "package",
+      "path": "sqlitepclraw.core/2.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.2.1.7.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
+      ]
+    },
+    "Stub.System.Data.SQLite.Core.NetStandard/1.0.118": {
+      "sha512": "4TS8IZvDj0ud6utxfXI6zv9Ditk4U9Kt9KqLyAIQGcU3GXp5oGBHgGZifq+APcqRCayuN/MSE8t9ZZmygtU28A==",
+      "type": "package",
+      "path": "stub.system.data.sqlite.core.netstandard/1.0.118",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/System.Data.SQLite.dll",
+        "lib/netstandard2.0/System.Data.SQLite.dll.altconfig",
+        "lib/netstandard2.0/System.Data.SQLite.xml",
+        "lib/netstandard2.1/System.Data.SQLite.dll",
+        "lib/netstandard2.1/System.Data.SQLite.dll.altconfig",
+        "lib/netstandard2.1/System.Data.SQLite.xml",
+        "runtimes/linux-x64/native/SQLite.Interop.dll",
+        "runtimes/osx-x64/native/SQLite.Interop.dll",
+        "runtimes/win-x64/native/SQLite.Interop.dll",
+        "runtimes/win-x86/native/SQLite.Interop.dll",
+        "stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
+        "stub.system.data.sqlite.core.netstandard.nuspec"
+      ]
+    },
+    "System.Data.SQLite.Core/1.0.118": {
+      "sha512": "2V1PsfBeqWlZxF/VtB8lQKPfDBayCU8zD5Xc3Mq7cILOa2ZqpPDSwMP0fTfk1gtGSStSk//DxKiGy6zwCQs7Uw==",
+      "type": "package",
+      "path": "system.data.sqlite.core/1.0.118",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "system.data.sqlite.core.1.0.118.nupkg.sha512",
+        "system.data.sqlite.core.nuspec"
+      ]
+    },
+    "System.Memory/4.5.3": {
+      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "Microsoft.Data.Sqlite.Core >= 8.0.1",
+      "SQLitePCLRaw.core >= 2.1.7",
+      "System.Data.SQLite.Core >= 1.0.118"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\GAMER\\.nuget\\packages\\": {}
+    "C:\\Users\\cocorisin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GAMER\\source\\repos\\ExamenC#\\ExamenC#\\ExamenC#.csproj",
+      "projectUniqueName": "C:\\Users\\cocorisin\\Desktop\\C#\\ExamenC#\\ExamenC#.csproj",
       "projectName": "ExamenC#",
-      "projectPath": "C:\\Users\\GAMER\\source\\repos\\ExamenC#\\ExamenC#\\ExamenC#.csproj",
-      "packagesPath": "C:\\Users\\GAMER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GAMER\\source\\repos\\ExamenC#\\ExamenC#\\obj\\",
+      "projectPath": "C:\\Users\\cocorisin\\Desktop\\C#\\ExamenC#\\ExamenC#.csproj",
+      "packagesPath": "C:\\Users\\cocorisin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cocorisin\\Desktop\\C#\\ExamenC#\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cocorisin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -45,6 +208,20 @@
     "frameworks": {
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": {
+            "target": "Package",
+            "version": "[8.0.1, )"
+          },
+          "SQLitePCLRaw.core": {
+            "target": "Package",
+            "version": "[2.1.7, )"
+          },
+          "System.Data.SQLite.Core": {
+            "target": "Package",
+            "version": "[1.0.118, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
