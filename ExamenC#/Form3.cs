@@ -86,35 +86,7 @@ namespace ExamenC_
             dataGridView1.Rows.Add(rowData);
         }
 
-        private void create_db()
-        {
-
-            try
-            {
-                if (!System.IO.File.Exists(path))
-                {
-                    SQLiteConnection.CreateFile(path);
-                    using (var sqlite = new SQLiteConnection(@"Data Source=" + path))
-                    {
-                        sqlite.Open();
-                        string sql = "CREATE TABLE house (id INTEGER PRIMARY KEY AUTOINCREMENT, ad_type VARCHAR(7), num_room INTEGER, surface_area FLOAT, location VARCHAR(50), description VARCHAR(255), price FLOAT, Owner_name VARCHAR(50), Owner_email VARCHAR(70), Owner_phone_num VARCHAR(8));";
-
-                        SQLiteCommand command = new SQLiteCommand(sql, sqlite);
-                        command.ExecuteNonQuery();
-
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Database already exists");
-                    return;
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error creating database: " + ex.Message);
-            }
-        }
+        
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -198,7 +170,6 @@ namespace ExamenC_
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            create_db();
             data_show();
         }
     }
